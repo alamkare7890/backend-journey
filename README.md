@@ -47,6 +47,7 @@ let object = {
   'status' : true,
 }
 `
+##
 Array holds multiple data types in single form without any pair,
 
 `
