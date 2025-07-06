@@ -73,6 +73,7 @@ There are 4 types of operator which we have in javascript
 ###### Arithmetic
 
 In `ifelse` usage of arithmetic and comparision operators
+#
 
 `
 function addition(num1, num2){
@@ -82,18 +83,35 @@ function subtraction(num1, num2){
   return num1 - num2
 }
 `
+#
 with the help of arithmetic operator `+ (additioni)`, `- (Substraction)`, `* (Multipication)`, `/ (Division)`, `% (Modulus)`, `++ (Increament)`, `-- (Decrement)`, we can conditional rendering.
+
+#
 
 ###### Assigment Operator
 
 with the help of assigment operator, we can assig value `= (assigment)`, += (add assigment), -= (substract assigment) as follows.
-
+#
 `
 let number = 7845784578;
 //Or
 function adding(num1){
   return num1 += 1;
 }
+
+`
+#
+
+###### Comparision Operator
+
+which help to compare the between two vaiables or type of data with help, we can return conditional display.
+
+Comparision `==` which are equal or not only with value
+compare the `===` type of data and value both are equal or not
+
+#
+`
+
 
 `
 
