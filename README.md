@@ -116,10 +116,29 @@ compare the `===` type of data and value both are equal or not
 <br>
 `!==`, check both value and type thats are not equal or not
 <br>
+`>`, greater than from one value to another value
+<br>
+`<`, less than from one value to another value
+<br>
+`>=`, greater but also equal to this value
+<br>
+<= lesser but also equal to this vlaue
+<br>
+
+We can elaborate this with help of `ifelse` and `loop`
 
 #
 ```
+let name = "Masum";
+if(name == "Masum"){
+  conssole.log('say hi !');
+}else{
+  console.log('you are not authorized');
+}
 
+for(let i = 1; i <= 5; i++){
+  console.log(`number count ${i}`);
+}
 
 ```
 
