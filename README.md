@@ -28,11 +28,30 @@ undefine data type means define the varible name but never set up any value insi
 this `name` variable initialize but inside the varible there is no value assign too.
 Simple we can console log it `console.log(name)`
 
+null data types define null value inside the variable which reprent null value.
+
 #### Non-Primitive
 In the other, we have **Non-Primitive** Data type which holds multi data inside one varible.
 **Like :** `Object`, `Array`, `Set`.
 
 **Note :** __`Javascript will return every data types in object in intial stage`__
+
+**`Array`** and **`Object`**
+
+Object store multiple data types with in form of key value pair.
+`
+let object = {
+  'name' : "Masum",'
+  'age'  : 22,
+  'gender' : "Male",
+  'status' : true,
+}
+`
+Array holds multiple data types in single form without any pair,
+
+`
+let array = ["Masum", 22, {gender: "Male"}, true];
+`
 
 
 
