@@ -10,9 +10,10 @@ a backen with full of joy
 
 Data Type which help us to know what type are data or which format data have returned from the vaiable, 
 **Let take a example :**
-`
+```
 let name = "Masum";
-`
+
+```
 In the above line of code, take a variable name __name__ and and stored **text** or **string** value which define the name vaible have a string value.
 In the **javascript**, have a fucntion which help to get the type of data `typeof()`, we put the variable inside the funciton get print the type of data.
 
@@ -39,20 +40,21 @@ In the other, we have **Non-Primitive** Data type which holds multi data inside 
 **`Array`** and **`Object`**
 
 Object store multiple data types with in form of key value pair.
-`
+
+```
 let object = {
   'name' : "Masum",'
   'age'  : 22,
   'gender' : "Male",
   'status' : true,
 }
-`
+```
 ##
 Array holds multiple data types in single form without any pair,
 
-`
+```
 let array = ["Masum", 22, {gender: "Male"}, true];
-`
+```
 ##
 
 #### Condition
@@ -70,50 +72,56 @@ There are 4 types of operator which we have in javascript
 ##### Arithmetic
 ##### Comparision
 
-###### Arithmetic
+##### Arithmetic
 
 In `ifelse` usage of arithmetic and comparision operators
 #
 
-`
+```
 function addition(num1, num2){
   return num1 + num2;
 }
 function subtraction(num1, num2){
   return num1 - num2
 }
-`
+```
 #
 with the help of arithmetic operator `+ (additioni)`, `- (Substraction)`, `* (Multipication)`, `/ (Division)`, `% (Modulus)`, `++ (Increament)`, `-- (Decrement)`, we can conditional rendering.
 
 #
 
-###### Assigment Operator
+##### Assigment Operator
 
 with the help of assigment operator, we can assig value `= (assigment)`, += (add assigment), -= (substract assigment) as follows.
 #
-`
+```
 let number = 7845784578;
 //Or
 function adding(num1){
   return num1 += 1;
 }
 
-`
+```
 #
 
-###### Comparision Operator
+##### Comparision Operator
 
 which help to compare the between two vaiables or type of data with help, we can return conditional display.
 
 Comparision `==` which are equal or not only with value
+<br>
 compare the `===` type of data and value both are equal or not
+<br>
+`!=` , comparision of not equal of values
+<br>
+`!==`, check both value and type thats are not equal or not
+<br>
 
 #
-`
+```
 
 
-`
+```
 
 
 
