@@ -7,17 +7,6 @@ a backen with full of joy
 ### Topics
 #### Data Types
 
-In the form of, we have two data types in javascript 
-##### Primitive 
-which holds single value inside the variable 
-**like :** `String`, `Boolean`, `Interger`, `Float`, `Null`, `Undefine`.
-
-
-#### Non-Primitive
-In the other, we have **Non-Primitive** Data type which holds multi data inside one varible.
-**Like :** `Object`, `Array`, `Set`.
-
-**Note :** __`Javascript every data will return in object in intial stage`__
 
 Data Type which help us to know what type are data or which format data have returned from the vaiable, 
 **Let take a example :**
@@ -26,5 +15,24 @@ let name = "Masum";
 `
 In the above line of code, take a variable name __name__ and and stored **text** or **string** value which define the name vaible have a string value.
 In the **javascript**, have a fucntion which help to get the type of data `typeof()`, we put the variable inside the funciton get print the type of data.
+
+In the form of, we have two data types in javascript 
+##### Primitive 
+which holds single value inside the variable 
+**like :** `String`, `Boolean`, `Interger`, `Float`, `Null`, `Undefine`.
+
+**`Undefined`** and **`Null`**
+
+undefine data type means define the varible name but never set up any value inside the variable
+`let name;`
+this `name` variable initialize but inside the varible there is no value assign too.
+Simple we can console log it `console.log(name)`
+
+#### Non-Primitive
+In the other, we have **Non-Primitive** Data type which holds multi data inside one varible.
+**Like :** `Object`, `Array`, `Set`.
+
+**Note :** __`Javascript will return every data types in object in intial stage`__
+
 
 
