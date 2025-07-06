@@ -27,7 +27,7 @@ undefine data type means define the varible name but never set up any value insi
 `let name;`
 this `name` variable initialize but inside the varible there is no value assign too.
 Simple we can console log it `console.log(name)`
-
+##
 null data types define null value inside the variable which reprent null value.
 
 #### Non-Primitive
@@ -53,6 +53,53 @@ Array holds multiple data types in single form without any pair,
 `
 let array = ["Masum", 22, {gender: "Male"}, true];
 `
+##
+
+#### Condition
+
+Conditions in javscript which define break up statement with conditoinal operators in result.
+
+We use `if` and `else` statement in javascript to show up conditional statement with operator check up.
+
+##### Operators
+
+There are 4 types of operator which we have in javascript
+
+##### Assigment Operator
+##### Logical 
+##### Arithmetic
+##### Comparision
+
+###### Arithmetic
+
+In `ifelse` usage of arithmetic and comparision operators
+
+`
+function addition(num1, num2){
+  return num1 + num2;
+}
+function subtraction(num1, num2){
+  return num1 - num2
+}
+`
+with the help of arithmetic operator `+ (additioni)`, `- (Substraction)`, `* (Multipication)`, `/ (Division)`, `% (Modulus)`, `++ (Increament)`, `-- (Decrement)`, we can conditional rendering.
+
+###### Assigment Operator
+
+with the help of assigment operator, we can assig value `= (assigment)`, += (add assigment), -= (substract assigment) as follows.
+
+`
+let number = 7845784578;
+//Or
+function adding(num1){
+  return num1 += 1;
+}
+
+`
+
+
+
+
 
 
 
