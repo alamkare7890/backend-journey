@@ -10,7 +10,14 @@ a backen with full of joy
 In the form of, we have two data types in javascript 
 ##### Primitive 
 which holds single value inside the variable 
-**like** `String`, `Boolean`, `Interger`, `Float`, `Null`, `Undefine`.
+**like :** `String`, `Boolean`, `Interger`, `Float`, `Null`, `Undefine`.
+
+
+#### Non-Primitive
+In the other, we have **Non-Primitive** Data type which holds multi data inside one varible.
+**Like :** `Object`, `Array`, `Set`.
+
+**Note :** __`Javascript every data will return in object in intial stage`__
 
 Data Type which help us to know what type are data or which format data have returned from the vaiable, 
 **Let take a example :**
